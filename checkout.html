@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="contact-type" content="text/html; charset-utf-8"/>
+
+        <meta name="viewport" content="width-device-width,initial-scale=1,mininmum-scale=1,maximum-scale=1,user-scalable=no">
+
+        <title>
+            
+            Details for Delivery
+        
+        </title>
+
+        <link href="./checkout.css" rel="stylesheet" type="text/css" />
+        
+
+        <script src="./checkout.js"></script>
+
+    
+    </head>
+
+    <body>
+
+        <div class="contact-in">
+
+            <div class="contact-map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.705055993752!2d72.92413755877664!3d19.14214565283765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b87f18a9d735%3A0x268d0b00f8f4a62!2sBhandup%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1728151514132!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+            <div class="contact-form">
+
+                <h1 text-align = 'center'>
+                    
+                    Details For Delivery
+                
+                </h1>
+
+                <div id="error_message"></div>
+
+                <form class = 'address_form' onsubmit="return validate_form();">
+
+                    <input type="text" placeholder="Name" class="contact-form-txt" id = 'name' />
+
+                    <input type="text" placeholder="Address" class="contact-form-txt" id = 'address'/>
+
+                    <input type="text" placeholder="Email-ID" class="contact-form-txt" id = 'email' />
+
+                    <input type="text" placeholder="Locality/Apartment" class="contact-form-txt" />
+
+                    <input type="text" placeholder="Pincode" class="contact-form-txt" id = 'pincode' />
+
+                    <input type="text" placeholder="Contact No." class="contact-form-txt" id = 'phone' />
+
+                    <input type="text" placeholder="Date (Format: dd/mm/yyyy)" class="contact-form-txt" id = 'date' />
+
+                    <input type="text" placeholder="Time Slot (Format: Starting Time - Ending Time. Give a duration of 2 hours.)" class="contact-form-txt" id = 'time' />
+
+                    <button type="submit" class="contact-form-btn" id = 'submit'>
+
+                        <a href ="./payment.html" style = "cursor: pointer; text-decoration: none; color: white;">
+                            
+                            Submit
+        
+                        </a>
+                    
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
